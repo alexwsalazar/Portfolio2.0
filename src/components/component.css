@@ -1,0 +1,56 @@
+ul {
+ list-style-type: none;
+ display: flex;
+ justify-content: flex-end;
+}
+
+li{
+    margin: 5px;
+}
+
+.about-img{
+display: flex;
+border-radius: 20px;
+width: 20%;
+
+align-items: center
+;
+}
+.about-info{
+    color: #fff;
+    opacity: 5;
+    font-size: 20px;
+    line-height: 30px;
+    margin-left: 500px;
+    
+}
+.about-section{
+  display:flex
+}
+.about{
+    
+    display: flex;
+    flex-direction: row;
+    
+  
+}
+
+.download-cv-btn{
+    position: row;
+    bottom: 10px;
+    left: 20%;
+    transform: translateX(-50%);
+    padding: 5px 10px;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: .5s;
+    background: rgba(0, 0, 0, 0.5);
+    
+   
+}
+.download-cv-btn:hover{
+    background: #000;
+}
