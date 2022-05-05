@@ -13,4 +13,4 @@ I have updated my portfolio adding seperate pages for each navagation link. adde
 
 click [here](https://alexwsalazar.github.io/portfolio-html/#) to go to my Portfolio 
 
-click [here](https://github.com/alexwsalazar/portfolio-html) to visit the the git hub repo
+click [here](https://github.com/alexwsalazar/Portfolio2.0) to visit the the git hub repo
