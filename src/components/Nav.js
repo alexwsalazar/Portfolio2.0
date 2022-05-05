@@ -7,16 +7,16 @@ function Nav() {
     <div className="card text-center">
      <ul>
          <li>
-            <Link to="/Portfolio2.0/"> Home </Link>
+            <Link to="./"> Home </Link>
          </li>
          <li>
-            <Link to="/Portfolio2.0/about"> About </Link>
+            <Link to="./about"> About </Link>
          </li>
          <li>
-            <Link to="/Portfolio2.0/project"> Project </Link>
+            <Link to="./project"> Project </Link>
          </li>
          <li>
-            <Link to="/Portfolio2.0/contact"> Contact </Link>
+            <Link to="./contact"> Contact </Link>
          </li>
      </ul>
     </div>
