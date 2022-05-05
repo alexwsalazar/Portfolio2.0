@@ -1,5 +1,7 @@
 import React from "react";
 import {Parallax} from "react-parallax"
+import myphoto from "../images/myphoto.jpg"
+import resume from "../images/react-resume2.png"
 
 function About() {
   return (
@@ -7,10 +9,10 @@ function About() {
     <div className="card text-center" style={{height:800}}>
      <div className="about">
          <div className="about-img-container">
-          <img src="/images/myphoto.jpg" className="about-img" alt=""/>
+          <img src={myphoto} className="about-img" alt=""/>
           <a className="download-cv-btn" href="https://www.linkedin.com/">linkedin</a>
           <a className="download-cv-btn" href="https://github.com/alexwsalazar">GitHub</a>
-          <a className="download-cv-btn" href="/images/react-resume2.png">Resume</a>
+          <a className="download-cv-btn" href={resume}>Resume</a>
         </div>
         <p className="about-info">Lorem ipsum dolor sit amet consectetur, 
         adipisicing elit. Quasi eligendi repudiandae totam repellat, 

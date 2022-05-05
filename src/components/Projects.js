@@ -1,4 +1,6 @@
 import React from "react";
+import pokeshot from "../images/poke-home-screenshot.png"
+import plantblog from "../images/project2img.png"
 
 function Project() {
   return (
@@ -9,7 +11,7 @@ function Project() {
         <div className="row">
           <div className="col align-self-start">
             <div className="project-card">
-            <img src="/images/poke-home-screenshot.png" className= "project-img" alt="pokeshop home screen"/>
+            <img src={pokeshot} className= "project-img" alt="pokeshop home screen"/>
             <div className="project-content">
             <h1 className="project-title">poke-shop</h1>
             <p className="project-info">
@@ -24,7 +26,7 @@ function Project() {
 </div>
 <div class="col align-self-center">
     <div class="project-card">
-    <img src="/images/project2img.png"  class="project-img" alt="pokeshop home screen"/>
+    <img src={plantblog}  class="project-img" alt="pokeshop home screen"/>
     <div class="project-content">
     <h1 class="project-title">Plant-Blog</h1>
     <p class="project-info ">
