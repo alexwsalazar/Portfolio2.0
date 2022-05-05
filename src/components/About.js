@@ -10,7 +10,7 @@ function About() {
           <img src="/images/myphoto.jpg" className="about-img" alt=""/>
           <a className="download-cv-btn" href="https://www.linkedin.com/">linkedin</a>
           <a className="download-cv-btn" href="https://github.com/alexwsalazar">GitHub</a>
-          <a className="download-cv-btn" href="https://docs.google.com/document/d/1uO1rUCA6JFOE0SradsdRcTyVSypsnU6_RgtqhM3y50I/edit#heading=h.gjdgxs">Resume</a>
+          <a className="download-cv-btn" href="/images/react-resume2.png">Resume</a>
         </div>
         <p className="about-info">Lorem ipsum dolor sit amet consectetur, 
         adipisicing elit. Quasi eligendi repudiandae totam repellat, 
