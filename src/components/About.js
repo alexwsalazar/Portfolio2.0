@@ -10,14 +10,11 @@ function About() {
      <div className="about">
          <div className="about-img-container">
           <img src={myphoto} className="about-img" alt=""/>
-          <a className="download-cv-btn" href="https://www.linkedin.com/">linkedin</a>
+          <a className="download-cv-btn" href="https://www.linkedin.com/in/alejandro-salazar-909a2623b/">linkedin</a>
           <a className="download-cv-btn" href="https://github.com/alexwsalazar">GitHub</a>
           <a className="download-cv-btn" href={resume}>Resume</a>
         </div>
-        <p className="about-info">Lorem ipsum dolor sit amet consectetur, 
-        adipisicing elit. Quasi eligendi repudiandae totam repellat, 
-        dolor amet laboriosam quam deleniti possimus laudantium obcaecati modi, 
-        aspernatur voluptates quaerat fugit illum. Corrupti, fugiat esse!
+        <p className="about-info"> I am a 31 year old Peruvian American. I came to this country when I was 4 years old and became an American Citizen at the age of 19. I fathered a son at the young age of 16, and had to start working right away. I started as a cable technician for AT&T right out of highschool and stayed in that type of field till recent. I have return to school to learn web development so that I can show my son a better life, and be able to help him reach higher goals and studies. 
         </p>
     </div>
   </div>
