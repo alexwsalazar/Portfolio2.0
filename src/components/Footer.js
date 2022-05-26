@@ -1,10 +1,24 @@
 import React from "react";
+import {Link} from "react-router-dom";
 
 function Footer() {
   return (
     <div className="card text-center">
-     <h2>this is the Footer page</h2>
-    </div>
+    <ul>
+        <li>
+           <Link to="./"> Home </Link>
+        </li>
+        <li>
+           <Link to="./about"> About </Link>
+        </li>
+        <li>
+           <Link to="./project"> Project </Link>
+        </li>
+        <li>
+           <Link to="./contact"> Contact </Link>
+        </li>
+    </ul>
+   </div>
   );
 }
 
